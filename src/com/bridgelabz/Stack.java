@@ -20,5 +20,5 @@ public class Stack <T>{
             return listObj.pop();
 
         }
-}
 
+    }

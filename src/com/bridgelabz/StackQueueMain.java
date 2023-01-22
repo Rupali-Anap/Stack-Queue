@@ -12,9 +12,9 @@ public class StackQueueMain {
             System.out.println();
             while (stack.peek() != null) {
                 System.out.println("First element of the stack is " + stack.peek());
-                stack.pop();
-                stack.show();
-            }
+                        stack.pop();
+                        stack.show();
+                    }
 
             System.out.println();
             System.out.println("Oueue Oprations Here : ");
@@ -27,6 +27,7 @@ public class StackQueueMain {
             System.out.println("After Dequeue : ");
             queue.dequeue();
             queue.show();
-        }
+
+                }
 
 }
