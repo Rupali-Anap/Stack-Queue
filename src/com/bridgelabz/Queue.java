@@ -2,7 +2,7 @@ package com.bridgelabz;
 
 public class Queue<T> {
 
-    LinkedList<T> listObj = new LinkedList<T>();
+        LinkedList<T> listObj = new LinkedList<T>();
 
         public void enqueue(T value) {
             listObj.add(value);
